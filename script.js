@@ -72,9 +72,4 @@ export function aufgabe06(args) {
 export function aufgabe07(args) {
   const input = args
 
-  
-
-
-
-  
 }
