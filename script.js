@@ -71,5 +71,38 @@ export function aufgabe06(args) {
 
 export function aufgabe07(args) {
   const input = args
+  if (
+    (input.indexOf(" und ") !=-1 && input.indexOf("Und") != 0) ||
+    input.indexOf("Und") === 0 ||
+    input === "und"
+  )
+  return true
+  else return false
+  }
 
+
+export function aufgabe08(args) {
+  const input = args;
+
+  var textMit3 = input.replace(/[e]/g, '3');
+
+  return textMit3;
+}
+
+
+export function aufgabe09(args) {
+  const input = args;
+
+  if (input.length === 6) {
+    return true;
+  } else {
+    return false; 
+  }
+}
+
+
+export function aufgabe10(args) {
+  const input = args;
+
+  if (input)
 }
